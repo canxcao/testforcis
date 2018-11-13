@@ -1,8 +1,8 @@
 const path = require('path');
 const webdriver = require('selenium-webdriver');
 const chrome = require('selenium-webdriver/chrome');
-// const chromedriver = require('chromedriver');
-// const until = webdriver.until;
+const chromedriver = require('chromedriver');
+const until = webdriver.until;
 const By = webdriver.By;
 const options = new chrome.Options();
 options.addArguments('no-sandbox');
