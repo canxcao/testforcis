@@ -3,7 +3,7 @@
 
 MacOS | Linux
 -------- | --------
-[![Build Status](https://www.travis-ci.org/zhaoming0/test.svg?branch=master)](https://www.travis-ci.org/zhaoming0/test) | [![CircleCI](https://circleci.com/gh/zhaoming0/test/tree/master.svg?style=svg)](https://circleci.com/gh/zhaoming0/test/tree/master)
+[![Build Status](https://www.travis-ci.org/zhaoming0/testforcis.svg?branch=master)](https://www.travis-ci.org/zhaoming0/testforcis) | [![CircleCI](https://circleci.com/gh/zhaoming0/testforcis/tree/master.svg?style=svg)](https://circleci.com/gh/zhaoming0/testforcis/tree/master)
 
 
 ## Development / Testing
@@ -32,7 +32,7 @@ $ NODE_ENV=production npm run build
 $ npm start
 ```
 
-Open browser and navigate to http://localhost:8080/test
+Open browser and navigate to http://localhost:8080/testforcis
 
 ### Watch
 
@@ -43,4 +43,4 @@ $ npm run watch
 # License
 This project is following [Apache License Version 2.0](./LICENSE_APACHE2).
 
-And all documents in [test/wpt/resources](./test/wpt/resources) are licensed by the [W3C 3-clause BSD License](./test/wpt/resources/LICENSE).
+And all documents in [testforcis/wpt/resources](./testforcis/wpt/resources) are licensed by the [W3C 3-clause BSD License](./testforcis/wpt/resources/LICENSE).
