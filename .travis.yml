@@ -1,0 +1,15 @@
+language: node_js
+
+matrix:
+  include:
+    - os: osx
+      node_js: '8'
+      sudo: 'required'
+before_install:
+  - brew update > /dev/null
+  - brew cask install google-chrome
+install:
+  - npm install
+  - npm run build
+script:
+  - npm test
